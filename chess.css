@@ -42,7 +42,7 @@
 .topbrand{
     position:absolute;
     top:10vh;
-    right:05vw;
+    right:04vw;
     left:50vw;
     color:white;
     font-size:x-large;
@@ -55,8 +55,8 @@
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    top:05vh;
-    left:1vw;
+    top:15vh;
+    left:8vw;
     right:45vw;
      width:64vh;
      border:2px solid white;

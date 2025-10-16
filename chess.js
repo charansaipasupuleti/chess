@@ -9,3 +9,23 @@ for (let i = 0; i < 64; i++) {
     const isDark = (row + col) % 2 !== 0;
     square.style.backgroundColor = isDark ? black : white;
 }
+
+const playonlineButton = document.querySelector('.playonline');
+if(playonlineButton){
+playonlineButton.addEventListener('click',()=>{
+    window.location.href="chess.html";
+     alert("playing online");
+})}
+
+const playBotsButton = document.querySelector('.playbots');
+if(playBotsButton){
+playBotsButton.addEventListener('click',()=>{
+    window.location.href="chess.html";
+    alert("playing bots");
+})}
+const getStartedButton = document.querySelector('.getstarted');
+if(getStartedButton){
+getStartedButton.addEventListener('click',()=>{
+    window.location.href="chess.html";
+    alert("getting started");
+})}

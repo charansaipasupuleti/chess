@@ -62,13 +62,13 @@
    
 
 }
-.chessboard>div{
+/* .chessboard>div{
     height:8vh;
     width:8vh;
-}
+} */
 .square{
-    height:1vh;
-    width:1vh;
+    height:8vh;
+    width:8vh;
     background-color: white;
 }
 

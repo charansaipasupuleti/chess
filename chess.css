@@ -16,7 +16,7 @@
     background-color:#262522;
 }
 .item1 h3{
-
+    margin-top:10px;
     color:white;
       font-weight: bold;
 }
@@ -59,23 +59,19 @@
     left:8vw;
     right:45vw;
      width:64vh;
-     border:2px solid white;
+   
 
 }
 .chessboard>div{
     height:8vh;
     width:8vh;
 }
+.square{
+    height:1vh;
+    width:1vh;
+    background-color: white;
+}
 
-
-/* .square1{
-   
-    background-color:#81b64c;
-    grid-row-start:1;
-    grid-row-end: 2;
-    grid-column-start:1;
-    grid-column-end: 2; 
-} */
 button{
     color:white;
     font-size:5vh;

@@ -20,7 +20,7 @@ playonlineButton.addEventListener('click',()=>{
 const playBotsButton = document.querySelector('.playbots');
 if(playBotsButton){
 playBotsButton.addEventListener('click',()=>{
-    window.location.href="chess.html";
+    window.location.href="playingbots.html";
     alert("playing bots");
 })}
 const getStartedButton = document.querySelector('.getstarted');

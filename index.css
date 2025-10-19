@@ -104,6 +104,10 @@ a:hover {
   height: 8vh;
   width: 8vh;
   background-color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  z-index: index 2;
 }
 
 .topbrand button {
@@ -200,4 +204,32 @@ button:hover {
 }
 .botsection h2 {
   margin: 10px;
+}
+.socialcards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+}
+.card {
+  height: 25vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 20px;
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+}
+.cardsec {
+  background-color: #262522;
+  height: 40px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
 }

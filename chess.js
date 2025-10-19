@@ -14,18 +14,15 @@ const playonlineButton = document.querySelector('.playonline');
 if(playonlineButton){
 playonlineButton.addEventListener('click',()=>{
     window.location.href="chess.html";
-     alert("playing online");
 })}
 
 const playBotsButton = document.querySelector('.playbots');
 if(playBotsButton){
 playBotsButton.addEventListener('click',()=>{
     window.location.href="playingbots.html";
-    alert("playing bots");
 })}
 const getStartedButton = document.querySelector('.getstarted');
 if(getStartedButton){
 getStartedButton.addEventListener('click',()=>{
     window.location.href="chess.html";
-    alert("getting started");
 })}
